@@ -10,6 +10,7 @@ import os
 import random
 
 type_n =2
+gene_n = 11284
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 def set_random_seed(seed, deterministic=False):
@@ -117,7 +118,7 @@ class MRCGNN(nn.Module):
                                   ])
                     
         # 基因特征
-        num_drugs = 11284
+        num_drugs = gene_n
         features_dim = 512
         # 随机生成特征
         features1 = np.random.rand(num_drugs, features_dim).astype(np.float32)
