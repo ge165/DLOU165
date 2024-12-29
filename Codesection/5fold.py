@@ -16,4 +16,4 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 for k in range(5):
 
-    os.system('python main.py --out_file test.txt --zhongzi '+str(k))
+    os.system('python main.py --out_file result.txt --zhongzi '+str(k))
