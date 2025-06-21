@@ -32,7 +32,7 @@ to install other packages.
 | Deng  | 572 | 65 |
 | Ryu | 1700 | 86 |
 
-# 🌟Quick Run
+# Quick Run
 在代码目录下运行下面这个命令。
 ```
 python 5fold.py
