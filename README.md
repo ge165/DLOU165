@@ -20,7 +20,7 @@ CUDA 11.0
 - torch-sparse==0.6.9
 
 ## install environment
-This repositories is built based on python == 3.8.19. You could simply run
+This repositories is built based on python == 3.7.10. You could simply run
 
 `pip install -r requirements.txt`
 
