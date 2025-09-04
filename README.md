@@ -1,7 +1,19 @@
 # MRCGN
 (The initial features in the code data were extracted using a distillation-based methodology, as detailed in the repository: https://github.com/HongxinXiang/IEM.git)
 # Abstract
-......
+Predicting drug–drug interaction (DDI) events is critical for ensuring patient safety, optimizing
+therapeutic efficacy, and advancing drug discovery. Deep learning–based models have recently
+attracted considerable attention in this domain and achieved promising results. However, most
+existing approaches insufficiently account for both the chemical structural information of drugs
+and the multiplicity of interaction types, thereby limiting predictive accuracy. Here we present
+ChemDDI, a chemically information-enhanced deep learning framework for DDI event prediction.
+Specifically, ChemDDI employs multi-view graph- and image-based augmentation methods to
+extract chemical structural information from three-dimensional conformations. Building on these
+chemically-informed representations, ChemDDI incorporates multi-relational interaction information
+through graph neural networks and knowledge graph embeddings, while contrastive learning constraints
+further align interaction features for robust DDI event prediction. Extensive experiments
+demonstrate that ChemDDI consistently outperforms state-of-the-art baselines, with substantial
+gains on rare interaction events. Code is available at https://github.com/ge165/DLOU165.git
 # Environment
 ## GPU environment
 CUDA 11.0
