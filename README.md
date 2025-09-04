@@ -1,5 +1,5 @@
 # MRCGN
-(代码数据中的初始特征是借用一种蒸馏的方法提取的，详见仓库https://github.com/HongxinXiang/IEM.git)
+(The initial features in the code data were extracted using a distillation-based methodology, as detailed in the repository: https://github.com/HongxinXiang/IEM.git)
 # Abstract
 ......
 # Environment
@@ -27,17 +27,17 @@ This repositories is built based on python == 3.7.10. You could simply run
 to install other packages.
 
 # Datasets
-| #名称 | #药物数量 | #DDI种类数量 |
+| #name | #totality| #DDItype |
 | :---: | :---: | :---: |
 | Deng  | 572 | 65 |
 | Ryu | 1700 | 86 |
 
 # Quick Run
-在代码目录下运行下面这个命令。
+Run the following command in the code directory.
 ```
 python 5fold.py
 ```
-结果在文件夹中的result.txt中。
+The result is in the "result.txt" file within the folder.
 
-## 更换数据集
-将data中的数据换成想要的数据集，再修改parms_setting.py中的type_number即可。
+## Change the dataset
+Replace the data in "data" with the desired dataset, and then modify "type_number" in "parms_setting.py".
