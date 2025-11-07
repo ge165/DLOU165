@@ -55,5 +55,6 @@ The result is in the "result.txt" file within the folder.
 Replace the data in "data" with the desired dataset, and then modify "type_number" in "parms_setting.py".
 
 # Contact
-Junlin Xu-xjl@wust.edu.cn
-Shuting Jin-stjin@stu.xmu.edu.cn
+Junlin Xu - xjl@wust.edu.cn
+
+Shuting Jin - stjin@stu.xmu.edu.cn
